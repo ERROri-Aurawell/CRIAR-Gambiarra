@@ -1,0 +1,142 @@
+{
+	autofocus_id: "41AD026CCBEBF36E"
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "mover_torque"
+	group: "5143C0EF7490C578"
+	id: "7D3298F4DF16A77A"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"Movimenta torque em linha reta"
+				""
+				"Pode girar qualquer uma das direções"
+				"{image:kubejs:textures/quests/shafts.png width:100 height:100 align:center}"
+			]
+			id: "41AD026CCBEBF36E"
+			tasks: [{
+				id: "310D9F3C90C3EC65"
+				item: "create:shaft"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			description: [
+				"Gearboxes conseguem mudar a direção do torque"
+				""
+				"&4CUIDADO&r : A rotação do torque é invertida."
+				""
+				"{image:kubejs:textures/quests/gearbox.png width:100 height:100 align:center}"
+			]
+			id: "10A29AE204C52393"
+			tasks: [{
+				id: "33CC1E5A856B5719"
+				item: "create:gearbox"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			description: [
+				"Os Chain Drives conseguem transportar torque de forma vertical, horizontal ou cruzada."
+				""
+				"Chains na mesma direção rodam no mesmo sentido."
+				"{image:kubejs:textures/quests/chain_gearshift.png width:100 height:100 align:center}"
+			]
+			id: "556E1866F632DEC9"
+			tasks: [{
+				id: "4027A9EF19254C88"
+				item: "create:encased_chain_drive"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 0.0d
+		}
+		{
+			description: [
+				"Cada engrenagem carrega torque lateralmente, pelos dentes, e de frente, pelo Shaft"
+				""
+				"CADA engrenagem &6inverte&r a direção do torque."
+				"{image:kubejs:textures/quests/cogwhell.png width:100 height:100 align:center}"
+			]
+			id: "5EB559CABE3A52C8"
+			tasks: [{
+				id: "0AF03B269DF5BC6E"
+				item: "create:cogwheel"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 3.0d
+		}
+		{
+			description: [
+				"A Engrenagem Grande consegue transportar torque a 90°"
+				""
+				"Ou, encaixada em uma engrenagem pequena."
+				"{image:kubejs:textures/quests/huge_cog.png width:100 height:100 align:center}"
+			]
+			id: "2152E96C430848F1"
+			tasks: [{
+				id: "10C2B72EA276A542"
+				item: "create:large_cogwheel"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -3.0d
+		}
+		{
+			description: [
+				"A Belt consegue transportar torque com todos os shafts rodando na mesma direção."
+				""
+				"Ela pode ser posicionada na vertical, horizontal e diagonal."
+				""
+				"Você pode extender uma Belt ao clicar com botão direito na ponta segurando outra Belt. (ela não é gasta)"
+				""
+				"Você pode adicionar Shafts em uma Belt. (Eles são gastos)"
+				""
+				"Você pode remover extenções de uma Belt ao interagir com botão direito segurando a Wrench"
+				"{image:kubejs:textures/quests/belt.png width:100 height:100 align:center}"
+			]
+			id: "60E8C01408F7DAE0"
+			tasks: [{
+				id: "47B71390271C666D"
+				item: "create:belt_connector"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 3.0d
+		}
+		{
+			description: [
+				"O Chain Conveyor consegue transportar Torque, Players e Caixas."
+				""
+				"Todos os conveyors ligados rodam na mesma direção."
+				""
+				"Ligar conveyors necessta de correntes."
+				""
+				"{image:kubejs:textures/quests/chain_conveyor.png width:100 height:100 align:center}"
+			]
+			id: "3D7EE43026E04E53"
+			tasks: [
+				{
+					id: "6BBD8CE036635290"
+					item: "create:chain_conveyor"
+					type: "item"
+				}
+				{
+					id: "4C533A497C54071E"
+					item: "minecraft:chain"
+					type: "item"
+				}
+			]
+			x: -3.0d
+			y: -3.0d
+		}
+	]
+	title: "Mover torque"
+}

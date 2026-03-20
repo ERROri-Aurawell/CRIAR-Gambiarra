@@ -1,0 +1,625 @@
+{
+	autofocus_id: "1CF9DB1F1494D490"
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "shhhhhh"
+	group: "2A65628F06A954D5"
+	id: "7AFF86710B6CB580"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"Igualmente ao Vanilla, o Create possui &eConquistas Secretas&r."
+				""
+				"Essa árvore do QuestBook dará dicas de como conseguir todas as conquistas secretas, se você descobrir o que cada dica significa."
+			]
+			id: "1CF9DB1F1494D490"
+			rewards: [{
+				id: "656C1B2262A59AE8"
+				item: {
+					Count: 1
+					id: "minecraft:paper"
+					tag: {
+						RepairCost: 0
+						display: {
+							Name: "{\"text\":\"Beijinhos entre Funis\"}"
+						}
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "5C00AC9656B8C240"
+				title: "Eu aceito o desafio."
+				type: "checkmark"
+			}]
+			title: "Tudo começa de algum lugar."
+			x: -1.5d
+			y: -1.0d
+		}
+		{
+			description: [
+				"Faça dois funels se tocarem quando esticados."
+				""
+				"A velocidade se torna \"infinita\", e laga menos o mapa, por que não precisa renderizar nada na tela."
+			]
+			id: "77863F86EC1EAEAD"
+			invisible: true
+			rewards: [
+				{
+					id: "32FA5CBBA5CD0E7E"
+					item: {
+						Count: 1
+						id: "minecraft:paper"
+						tag: {
+							RepairCost: 0
+							display: {
+								Name: "{\"text\":\"Perfeitamente Balanceado\"}"
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					count: 2
+					id: "233EF68E6B841C83"
+					item: "create:brass_funnel"
+					type: "item"
+				}
+			]
+			tasks: [{
+				advancement: "create:belt_funnel_kiss"
+				criterion: ""
+				icon: "create:andesite_funnel"
+				id: "51B08CFF9CD82003"
+				title: "Beijinhos"
+				type: "advancement"
+			}]
+			x: 1.5d
+			y: -1.0d
+		}
+		{
+			description: ["Observe uma rede com exatos 100% de uso."]
+			id: "4A552946F45EE379"
+			invisible: true
+			rewards: [
+				{
+					id: "4401F8329404C9CA"
+					item: {
+						Count: 1
+						id: "minecraft:paper"
+						tag: {
+							RepairCost: 0
+							display: {
+								Name: "{\"text\":\"Roda... D'água?\"}"
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "1D1E8A0DFE0AFD1B"
+					table_id: 9049942743755606960L
+					type: "choice"
+				}
+			]
+			tasks: [{
+				advancement: "create:stressometer_maxed"
+				criterion: ""
+				icon: "create:stressometer"
+				id: "0E260119B1D9EB6D"
+				title: "Perfeitamente Balanciado"
+				type: "advancement"
+			}]
+			x: -4.5d
+			y: -1.0d
+		}
+		{
+			description: ["Uma Roda D'água pode ser girada com... lava."]
+			id: "1C6099DE77B4328E"
+			invisible: true
+			rewards: [
+				{
+					id: "592AE74E4520C75B"
+					item: {
+						Count: 1
+						id: "minecraft:paper"
+						tag: {
+							RepairCost: 0
+							display: {
+								Name: "{\"text\":\"Gire enquanto eles comem.\"}"
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					count: 16
+					id: "763AC7F6818322AC"
+					item: "create:large_water_wheel"
+					type: "item"
+				}
+			]
+			tasks: [{
+				advancement: "create:lava_wheel_00000"
+				criterion: ""
+				icon: "create:large_water_wheel"
+				id: "6C727CA77B2C41BE"
+				title: "Roda de lava"
+				type: "advancement"
+			}]
+			x: -1.5d
+			y: -4.0d
+		}
+		{
+			description: ["Fique exausto de tanto girar uma manivela."]
+			id: "1C4BF65C37FF7914"
+			invisible: true
+			rewards: [
+				{
+					id: "22E83ADA32D3ABBC"
+					item: {
+						Count: 1
+						id: "minecraft:paper"
+						tag: {
+							RepairCost: 0
+							display: {
+								Name: "{\"text\":\"Mergulho quente\"}"
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					count: 5
+					id: "0863951C7EB9B2C2"
+					item: "create:brass_hand"
+					type: "item"
+				}
+			]
+			tasks: [{
+				advancement: "create:hand_crank_000"
+				criterion: ""
+				icon: "create:hand_crank"
+				id: "4BB14141A6CB934E"
+				title: "Gire enquanto eles comem"
+				type: "advancement"
+			}]
+			x: -1.5d
+			y: 2.0d
+		}
+		{
+			description: ["Utilize sua roupa de mergulho de netherite para afundar na lava."]
+			id: "265F7939B23EF9CC"
+			invisible: true
+			rewards: [
+				{
+					id: "4D6B43745AD1B26E"
+					item: {
+						Count: 1
+						id: "minecraft:paper"
+						tag: {
+							RepairCost: 0
+							display: {
+								Name: "{\"text\":\"Uma dúzia de chaminé... a vapor\"}"
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3E8E8935834B6793"
+					item: "create:blaze_burner"
+					type: "item"
+				}
+			]
+			tasks: [{
+				advancement: "create:diving_suit_lava"
+				criterion: ""
+				icon: {
+					Count: 1
+					id: "create:netherite_diving_helmet"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "7F1FD4E730FF5252"
+				title: "Mergulho quente"
+				type: "advancement"
+			}]
+			x: 5.0d
+			y: -1.0d
+		}
+		{
+			description: ["Tenha um \"tchoo, tchoo\" com pelo menos 12 blocos de altura."]
+			id: "7747458D2000FDB0"
+			invisible: true
+			rewards: [
+				{
+					id: "35CC45891C9745FC"
+					item: {
+						Count: 1
+						id: "minecraft:paper"
+						tag: {
+							RepairCost: 0
+							display: {
+								Name: "{\"text\":\"Rodando por blocos!\"}"
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					count: 18
+					id: "75C0EBFB49A20B5B"
+					item: "create:fluid_tank"
+					type: "item"
+				}
+			]
+			tasks: [{
+				advancement: "create:pipe_organ"
+				criterion: ""
+				icon: "create:steam_whistle"
+				id: "40EBBC47206F7734"
+				title: "Música para meus ouvidos"
+				type: "advancement"
+			}]
+			x: -8.0d
+			y: -1.0d
+		}
+		{
+			description: ["Faça que um cano tente puxar 2 fluidos diferentes"]
+			id: "1D38FD8EA768C526"
+			invisible: true
+			rewards: [
+				{
+					id: "389F79A8FC202096"
+					item: {
+						Count: 1
+						id: "minecraft:paper"
+						tag: {
+							RepairCost: 0
+							display: {
+								Name: "{\"text\":\"Rodando por blocos!\"}"
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					count: 8
+					id: "6A8E4856F7D8A05D"
+					item: "create:mechanical_pump"
+					type: "item"
+				}
+			]
+			tasks: [{
+				advancement: "create:cross_streams"
+				criterion: ""
+				id: "26607AF2BCC465B4"
+				title: "Entpiu"
+				type: "advancement"
+			}]
+			x: -1.5d
+			y: 5.0d
+		}
+		{
+			description: ["Faça um item percorrer pelo menos 2 drenos."]
+			id: "11EA32F1028DC835"
+			invisible: true
+			rewards: [{
+				count: 10
+				id: "5D5E601958674F0A"
+				item: "create:item_drain"
+				type: "item"
+			}]
+			tasks: [{
+				advancement: "create:chained_drain"
+				criterion: ""
+				icon: "create:item_drain"
+				id: "1868A56723731108"
+				title: "Rodando!"
+				type: "advancement"
+			}]
+			x: -1.5d
+			y: -7.5d
+		}
+		{
+			id: "26C462A759543AB7"
+			invisible: true
+			rewards: [
+				{
+					id: "17746585A628D9F9"
+					item: {
+						Count: 1
+						id: "minecraft:paper"
+						tag: {
+							RepairCost: 0
+							display: {
+								Name: "{\"text\":\"Dança Kuduro\"}"
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					count: 10
+					id: "3B57B8FADE1D720B"
+					item: "minecraft:tnt"
+					type: "item"
+				}
+			]
+			tasks: [{
+				advancement: "create:fist_bump"
+				criterion: ""
+				icon: "create:deployer"
+				id: "64FB715505F3812B"
+				title: "Toca aqui"
+				type: "advancement"
+			}]
+			x: 3.5d
+			y: -5.0d
+		}
+		{
+			id: "294AB4B5A817427E"
+			invisible: true
+			rewards: [
+				{
+					id: "1DE73FCE6E8F9FAE"
+					item: {
+						Count: 1
+						id: "minecraft:paper"
+						tag: {
+							RepairCost: 0
+							display: {
+								Name: "{\"text\":\"Um braço para Um braço\"}"
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "315E6D5E99DD2055"
+					table_id: 4742700874497034145L
+					type: "choice"
+				}
+			]
+			tasks: [{
+				advancement: "create:musical_arm"
+				criterion: ""
+				icon: "create:mechanical_arm"
+				id: "04100A87A51D148E"
+				title: "DJ mecânico"
+				type: "advancement"
+			}]
+			x: 3.5d
+			y: 3.5d
+		}
+		{
+			id: "4BF343A8D99C0A93"
+			invisible: true
+			rewards: [
+				{
+					id: "13CBBDA8C9909F38"
+					item: {
+						Count: 1
+						id: "minecraft:paper"
+						tag: {
+							RepairCost: 0
+							display: {
+								Name: "{\"text\":\"SlowCrafting Table\"}"
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6E03C26417F65CE3"
+					item: {
+						Count: 1
+						id: "create:extendo_grip"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				advancement: "create:extendo_grip_dual"
+				criterion: ""
+				icon: {
+					Count: 1
+					id: "create:extendo_grip"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "1FDB4423734C66AD"
+				title: "Mão para uma Mão"
+				type: "advancement"
+			}]
+			x: -6.5d
+			y: 3.5d
+		}
+		{
+			id: "3EB012F485B46C65"
+			invisible: true
+			rewards: [
+				{
+					id: "0014AFB858DD553E"
+					item: {
+						Count: 1
+						id: "minecraft:paper"
+						tag: {
+							RepairCost: 0
+							display: {
+								Name: "{\"text\":\"Acidente de ré\"}"
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					count: 16
+					id: "69C7A4AC3D47AF0A"
+					item: "create:mechanical_crafter"
+					type: "item"
+				}
+			]
+			tasks: [{
+				advancement: "create:crafter_lazy_000"
+				criterion: ""
+				icon: "create:mechanical_crafter"
+				id: "73D21AEAE255EF6C"
+				title: "Acho que tá rápido"
+				type: "advancement"
+			}]
+			x: -6.0d
+			y: -5.0d
+		}
+		{
+			id: "548C656459C2393C"
+			invisible: true
+			rewards: [
+				{
+					id: "0127E3258730A900"
+					item: {
+						Count: 1
+						id: "minecraft:paper"
+						tag: {
+							RepairCost: 0
+							display: {
+								Name: "{\"text\":\"Não fique na frente do trilho\"}"
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					count: 32
+					id: "0BF115A23FCB785F"
+					item: "create:track"
+					type: "item"
+				}
+			]
+			tasks: [{
+				advancement: "create:train_crash_backwards"
+				criterion: ""
+				icon: "create:track"
+				id: "3C4CB834FE91868F"
+				title: "Acidentes"
+				type: "advancement"
+			}]
+			x: -3.5d
+			y: 1.0d
+		}
+		{
+			id: "4FD2BA2C7CC59BDB"
+			invisible: true
+			rewards: [
+				{
+					id: "4B9D1669B95F8DE7"
+					item: {
+						Count: 1
+						id: "minecraft:paper"
+						tag: {
+							RepairCost: 0
+							display: {
+								Name: "{\"text\":\"Sinal vermelho\"}"
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "24D309DD65953EC8"
+					item: {
+						Count: 1
+						id: "create:potato_cannon"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				advancement: "create:train_roadkill"
+				criterion: ""
+				icon: {
+					Count: 1
+					id: "minecraft:diamond_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "4AA27FED537E6343"
+				title: "Acidente na pista"
+				type: "advancement"
+			}]
+			x: 0.5d
+			y: -3.0d
+		}
+		{
+			id: "451C51C368CFAFEF"
+			invisible: true
+			rewards: [
+				{
+					id: "4A0BEDDA374F6212"
+					item: {
+						Count: 1
+						id: "minecraft:paper"
+						tag: {
+							RepairCost: 0
+							display: {
+								Name: "{\"text\":\"Uber 0 estrelas\"}"
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					count: 8
+					id: "2007E06DF7FBF885"
+					item: "create:track_signal"
+					type: "item"
+				}
+			]
+			tasks: [{
+				advancement: "create:red_signal"
+				criterion: ""
+				icon: "create:track_signal"
+				id: "37CA7523623A314E"
+				title: "Motorista apressado"
+				type: "advancement"
+			}]
+			x: 0.5d
+			y: 1.0d
+		}
+		{
+			id: "4862883C0B15C7C5"
+			invisible: true
+			rewards: [{
+				count: 10
+				id: "1AF5711ADDE2CC16"
+				item: "create:railway_casing"
+				type: "item"
+			}]
+			tasks: [{
+				advancement: "create:train_crash"
+				criterion: ""
+				icon: "create:track"
+				id: "52FD9E3DCD03DB09"
+				title: "Uber 0 estrelas"
+				type: "advancement"
+			}]
+			x: -3.5d
+			y: -3.0d
+		}
+	]
+	title: "SHHHHHH!"
+}

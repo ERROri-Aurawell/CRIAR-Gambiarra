@@ -1,0 +1,103 @@
+{
+	autofocus_id: "35BE54CA7E4A489C"
+	default_hide_dependency_lines: false
+	default_quest_shape: "none"
+	filename: "o_incio"
+	group: ""
+	icon: "create:goggles"
+	id: "4DB6D3F6778A1A82"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			can_repeat: false
+			dependency_requirement: "all_started"
+			description: [
+				"(quase) Qualquer bloco do &eCreate&r ou &eAdd-ons&r fornecerá um tutorial básico de funcionamento ao &csegurar W&r, mostrando um &aguia visual interativo&r."
+				""
+				"Essa função é chamada de &cPonder&r, usaremos essa nomenclatura daqui para frente."
+			]
+			icon: "create:brass_hand"
+			id: "35BE54CA7E4A489C"
+			progression_mode: "linear"
+			shape: "hexagon"
+			size: 4.0d
+			tasks: [{
+				id: "09E8ED8350D65015"
+				title: "Clique para completar"
+				type: "checkmark"
+			}]
+			title: "Apertando W"
+			x: -0.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["35BE54CA7E4A489C"]
+			description: [
+				"A primeira forma simples de gerar &cTorque&r é utilizar uma &eHand Crank&r (Manivela)."
+				""
+				"A Manivela consome a &eFome&r de quem estiver girando."
+				""
+				"&cClicar ou Segurar&r o &6[Botão direito]&r fará ela &5girar&r em sentido &eAnti-Horário&r."
+				""
+				"Segurar &6[Shift]&r antes de girar a Manivela &cInverterá o sentido de rotação&r"
+			]
+			hide_details_until_startable: true
+			icon: "create:hand_crank"
+			id: "054F7E3D643FF967"
+			progression_mode: "linear"
+			shape: "gear"
+			size: 3.0d
+			tasks: [
+				{
+					id: "7ACCCAA690B44497"
+					title: "Eu li a descrição"
+					type: "checkmark"
+				}
+				{
+					id: "58F3F46F0619D542"
+					item: "create:hand_crank"
+					type: "item"
+				}
+			]
+			title: "Dança da manivela"
+			x: 5.0d
+			y: -3.0d
+		}
+		{
+			can_repeat: false
+			dependencies: ["054F7E3D643FF967"]
+			description: ["Essa quest &dabrirá&r uma &9Nova&r &9Página&r que &eexplica&r sobre &aSU&r e &cRPM&r."]
+			hide_details_until_startable: true
+			icon: "create:flywheel"
+			id: "5AE29134F4A59878"
+			progression_mode: "linear"
+			shape: "diamond"
+			size: 4.0d
+			tasks: [{
+				id: "308FD0996725B2A3"
+				title: "Clique em mim e desbloqueie outra página."
+				type: "checkmark"
+			}]
+			title: "O que raios é Torque?"
+			x: 10.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["35BE54CA7E4A489C"]
+			description: ["Essa quest abre uma guia com TODOS os blocos e as principais funções"]
+			hide_until_deps_complete: true
+			id: "13561BA2968FFBCF"
+			shape: "diamond"
+			tasks: [{
+				id: "33F6C7A41B6CA7EA"
+				title: "Abrir uma nova guia"
+				type: "checkmark"
+			}]
+			title: "Blocos e o que fazem."
+			x: -5.5d
+			y: -3.0d
+		}
+	]
+	title: "O início"
+}

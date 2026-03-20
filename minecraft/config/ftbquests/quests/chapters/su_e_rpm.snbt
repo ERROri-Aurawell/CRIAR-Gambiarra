@@ -1,0 +1,284 @@
+{
+	autofocus_id: "61D0D9BD200A9916"
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "su_e_rpm"
+	group: ""
+	hide_quest_until_deps_complete: true
+	icon: "create:large_water_wheel"
+	id: "11FC1C235762F415"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["5AE29134F4A59878"]
+			description: [
+				"O &5Create&r separa a "
+				"&9Quantidade de Energia&r &e(SU)&r"
+				"da "
+				"&bVelocidade de Giro&r &6(RPM)&r"
+			]
+			icon: "create:large_cogwheel"
+			id: "61D0D9BD200A9916"
+			size: 3.0d
+			tasks: [{
+				id: "15A7AC3960476904"
+				title: "Eu ainda não entendi, mas vamos lá."
+				type: "checkmark"
+			}]
+			title: "Aumentando a Dificuldade"
+			x: 0.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["61D0D9BD200A9916"]
+			description: [
+				"A &6Velocidade de Rotação&r pode ser vista e medida pelo &4[Speedometer]&r."
+				""
+				"Ela vai influenciar &eO quão rápido&r as &3Máquinas&r e &3Esteiras&r funcionam."
+				""
+				""
+				"Algumas máqunas como o &a[Mixer]&r &6PRECISAM&r que a &eVelocidade&r esteja &6Alta&r para começar a funcionar."
+			]
+			icon: "create:speedometer"
+			id: "722D143C96765F76"
+			shape: "diamond"
+			size: 2.0d
+			tasks: [
+				{
+					id: "161D58CB4E77D574"
+					title: "Saquei a Velocidade"
+					type: "checkmark"
+				}
+				{
+					id: "29E9BBD239845DC1"
+					item: "create:speedometer"
+					type: "item"
+				}
+			]
+			title: "RPM"
+			x: 2.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["61D0D9BD200A9916"]
+			description: [
+				"&9S&rtress &9U&rnity é a &e\"energia\" &rdo &6Create&r."
+				""
+				"A &9quantia de SU&r é &ccompartilhada pela rede inteira&r, ou seja, se você colocar &2uma máquna em uma ponta&r isolada, e um &6[Stressometer]&r em outra, e ainda dividir a rede no meio, &6ela vai compartilhar o mesmo Stress&r total."
+				""
+				"Quase todas as \"Máquinas\" do Create consomem SU."
+			]
+			icon: "create:stressometer"
+			id: "12AD0882A37C029C"
+			shape: "diamond"
+			size: 2.0d
+			tasks: [
+				{
+					id: "571E067DE9B48016"
+					title: "Pera, tem mais?"
+					type: "checkmark"
+				}
+				{
+					id: "01BA3B21D5B46556"
+					item: "create:stressometer"
+					type: "item"
+				}
+			]
+			title: "SU"
+			x: -2.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["12AD0882A37C029C"]
+			description: [
+				"O &cConsumo de SU&r está &9diretamente ligado&r a &eVelocidade de Rotação&r."
+				""
+				"&cA descrição&r de cada item &cdirá&r quanto SU ele vai &6gastar&r &2com base&r na &6Velocidade da Rede&r &bvezes&r &6X&r."
+				""
+				"Exemplo:"
+				"A rede está funcionando a &c128 RPM&r"
+				"O &4[Mechanical Press]&r consome &68X&r"
+				"ele vai &6pegar&r da rede &61024 SU&r"
+			]
+			icon: "create:mechanical_press"
+			id: "6C4298377FA1F79E"
+			rewards: [{
+				id: "4CA0C4E62D757B6F"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			tasks: [
+				{
+					id: "51A4D7548CFDDAFA"
+					title: "Agora as peças se encaixaram."
+					type: "checkmark"
+				}
+				{
+					id: "7F16F00AC1060437"
+					item: "create:mechanical_press"
+					type: "item"
+				}
+			]
+			title: "Consumindo Stress"
+			x: -5.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["35BE54CA7E4A489C"]
+			description: [
+				"OPA!"
+				""
+				"Parece que alguém viu uma rede &csuper estressada!&r"
+				""
+				"Bom, aqui vai o aviso, &9não ligue mais máqunas que a sua rede suporta&r."
+			]
+			icon: "create:clutch"
+			id: "3D4AB0D993B39801"
+			invisible: true
+			shape: "square"
+			subtitle: "Engenharia sob pressão"
+			tasks: [{
+				icon: "create:clutch"
+				id: "6A8D2D43B41978A9"
+				title: "OPS"
+				type: "custom"
+			}]
+			title: "OPS"
+			x: -8.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["35BE54CA7E4A489C"]
+			description: [
+				"OPA!"
+				""
+				"Eu avisei que o &6[Mixer]&r precisava de &eVelocidade Alta&r."
+				""
+				"Experimente ligar ele com &apelo menos 30 RPM&r."
+			]
+			id: "1C496600BFD556E8"
+			invisible: true
+			shape: "square"
+			subtitle: "Acelera isso aí!"
+			tasks: [{
+				icon: "create:whisk"
+				id: "156E0457E5BC9A4E"
+				title: "OPS"
+				type: "custom"
+			}]
+			title: "OPS"
+			x: 8.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["722D143C96765F76"]
+			description: [
+				"Ao conectar uma &9Engrenagem Pequena&r em uma &dEngrenagem Grande&r, a velocidade &ecai pela metade&r."
+				""
+				"Ao conectar uma &dEngrenagem Grande&r em uma &9Engrenagem Pequena&r, a velocidade &edobra&r."
+				"{image:kubejs:textures/quests/change_speed_with_gears.png width:100 height:100 align:center}"
+			]
+			id: "6EC53228409C97C4"
+			rewards: [{
+				id: "6810CD39F19DF6F0"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			tasks: [
+				{
+					id: "4F55A12AD38F2279"
+					item: "create:large_cogwheel"
+					type: "item"
+				}
+				{
+					id: "4FA1FE0CD4FEA999"
+					item: "create:cogwheel"
+					type: "item"
+				}
+			]
+			title: "Aumentando a Velocidade"
+			x: 5.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["722D143C96765F76"]
+			description: [
+				"O &5[Chain Gearshift]&r quando a &6origem do torque&r vem dele, e a &6alavanca está ligada&r, outros &9[Chain Drive]&r terão a &bvelocidade dobrada&r."
+				"{image:kubejs:textures/quests/up_change_speed_with_chain_gearshift.png width:100 height:100 align:center}"
+			]
+			id: "487C2462A70548EB"
+			rewards: [{
+				id: "6404845A6DDB43E1"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			tasks: [
+				{
+					id: "2CB45EB074A9DBC6"
+					item: "create:adjustable_chain_gearshift"
+					type: "item"
+				}
+				{
+					id: "6B2B04EBC1A6CE83"
+					item: "create:encased_chain_drive"
+					type: "item"
+				}
+			]
+			title: "Aumentando a velocidade com Chain"
+			x: 5.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["487C2462A70548EB"]
+			description: [
+				"O &5[Chain Gearshift]&r quando &4NÃO&r for a &6origem do torque&r, e a &6alavanca está ligada&r, a &bvelocidade cairá pela metade&r."
+				"{image:kubejs:textures/quests/down_change_speed_with_chain_gearshift.png width:100 height:100 align:center}"
+			]
+			hide_until_deps_complete: true
+			id: "00F1D44C6423188F"
+			tasks: [
+				{
+					id: "7F25E6C84946D469"
+					item: "create:adjustable_chain_gearshift"
+					type: "item"
+				}
+				{
+					id: "761EE5DC93746D4A"
+					item: "create:encased_chain_drive"
+					type: "item"
+				}
+			]
+			title: "Abaixando a velocidade com Chain"
+			x: 8.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["722D143C96765F76"]
+			description: [
+				"O &e[Rotation Speed Controller]&r permite que a &dvelocidade&r e &9direção&r seja ajustada manualmente para &equalquer valor&r."
+				"{@pagebreak}"
+				"Quando o torque vem pela parte de baixo, ele altera a saída em cima."
+				"{image:kubejs:textures/quests/down_change_speed_with_controller.png width:100 height:100 align:center}"
+				"{@pagebreak}"
+				"Quando o torque vem pela parte de cima, ele altera a saída em baixo."
+				"{image:kubejs:textures/quests/up_change_speed_with_controller.png width:100 height:100 align:center}"
+			]
+			hide_until_deps_complete: true
+			id: "5E8CE033C7612F73"
+			rewards: [{
+				id: "22F520A9149735C7"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			tasks: [{
+				id: "72073E991F9673ED"
+				item: "create:rotation_speed_controller"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 7.0d
+		}
+	]
+	title: "SU e RPM"
+}

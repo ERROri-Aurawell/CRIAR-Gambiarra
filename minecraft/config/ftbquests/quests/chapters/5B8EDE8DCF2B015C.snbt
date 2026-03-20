@@ -1,0 +1,32 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "5B8EDE8DCF2B015C"
+	group: "2A65628F06A954D5"
+	id: "5B8EDE8DCF2B015C"
+	order_index: 1
+	quest_links: [ ]
+	quests: [{
+		dependencies: ["7AFF86710B6CB580"]
+		description: ["?"]
+		hide_details_until_startable: true
+		hide_until_deps_complete: true
+		icon: "kubejs:question_mark"
+		id: "3679D2873BA94BA8"
+		rewards: [{
+			id: "584A4D1B213C550A"
+			item: "kubejs:question_mark"
+			type: "item"
+		}]
+		shape: "diamond"
+		subtitle: "?"
+		tasks: [{
+			id: "1AEED714F847BF8F"
+			title: "?"
+			type: "checkmark"
+		}]
+		x: 0.0d
+		y: 0.0d
+	}]
+	title: "?"
+}

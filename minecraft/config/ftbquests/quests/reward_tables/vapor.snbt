@@ -1,0 +1,13 @@
+{
+	icon: "create:fluid_tank"
+	id: "7D97DAFA0F2D4BB0"
+	loot_size: 1
+	order_index: 0
+	rewards: [
+		{ count: 3, item: "create:fluid_tank" }
+		{ item: "create:steam_engine" }
+		{ item: "create:blaze_burner" }
+		{ count: 16, item: "create:fluid_pipe" }
+	]
+	title: "VAPOR"
+}
