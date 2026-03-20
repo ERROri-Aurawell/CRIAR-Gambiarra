@@ -1,0 +1,16 @@
+filename = 'createoreexcavation-fabric-1.20-1.4.6.jar'
+name = 'Create Ore Excavation'
+side = 'both'
+x-prismlauncher-loaders = [ 'fabric' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = 'ab07c6ca9eef5562bb4ce16a72309a19ff73f90e6872ad3ed6446503e2e7ae042122415272206a91b62395b996c9e99443f40a79f50a378033c8da211918b85f'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/ResbpANg/versions/IV4nX7By/createoreexcavation-fabric-1.20-1.4.6.jar'
+
+[update.modrinth]
+mod-id = 'ResbpANg'
+version = 'IV4nX7By'

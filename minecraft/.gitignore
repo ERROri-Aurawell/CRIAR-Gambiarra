@@ -1,0 +1,9 @@
+/logs/
+/crash-reports/
+/saves/
+/backups/
+/.mixin.out/
+usercache.json
+usernamecache.json
+options.txt
+/schematics

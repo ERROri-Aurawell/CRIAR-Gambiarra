@@ -1,0 +1,16 @@
+filename = 'create-cobblestone-deepslate-generators-1.4.1+1.20.1.jar'
+name = 'Create Cobblestone deepslate generators'
+side = 'both'
+x-prismlauncher-loaders = [ 'neoforge', 'forge', 'quilt', 'fabric' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = '6f1f78d05c62241a9dee2c0cd3244135f522b802755617d130e4b941656a98d4374b54c6047329a97cf2d237dcf953133ac7a59922310e9c1897ca1c111fb3c6'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/F2XXc3ws/versions/DOVoDprR/create-cobblestone-deepslate-generators-1.4.1%2B1.20.1.jar'
+
+[update.modrinth]
+mod-id = 'F2XXc3ws'
+version = 'DOVoDprR'

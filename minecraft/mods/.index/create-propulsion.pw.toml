@@ -1,0 +1,16 @@
+filename = 'createpropulsion-0.3.1.jar'
+name = 'Create: Propulsion'
+side = 'both'
+x-prismlauncher-loaders = [ 'neoforge', 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20.1', '1.20.2', '1.20.3', '1.20.4', '1.20.5', '1.20.6' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = 'f7fed1e4a913136652a5146fcd5ac257bb41fa947e833e1a47d51498b4a92724c2048d8abdae0011739b99401b73ca5146db4a7a8fc9956c75f2cf26ee34ceb9'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/fmudhH0S/versions/lb48ICBc/createpropulsion-0.3.1.jar'
+
+[update.modrinth]
+mod-id = 'fmudhH0S'
+version = 'lb48ICBc'

@@ -1,0 +1,16 @@
+filename = 'create-train-perspective-0.5.0+mc1.20.1.jar'
+name = 'Create: Train Perspective'
+side = 'client'
+x-prismlauncher-loaders = [ 'quilt', 'fabric' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'beta'
+
+[download]
+hash = '394055a6c92f8c8fd71b2dace5fd25da5a06fe364a994473cc636196572755bca544977abe7cc358a5a03f961f310c1a975de69658a8ff47bfcb09b6541b1723'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/MAuPqvf1/versions/tuGWdBsA/create-train-perspective-0.5.0%2Bmc1.20.1.jar'
+
+[update.modrinth]
+mod-id = 'MAuPqvf1'
+version = 'tuGWdBsA'

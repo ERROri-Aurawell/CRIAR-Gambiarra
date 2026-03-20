@@ -1,0 +1,17 @@
+filename = 'crawlondemand-1.20-1.0.1.jar'
+name = 'Crawl on Demand'
+side = 'both'
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20', '1.20', '1.20.1', '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = '1.20.x-1.0.1'
+
+[download]
+hash = '2acdf922a08696d08b5182adddfb72ed1819fc8729eac662ea05a090c987b11842d5b55481ef503d49e231618cc25812aab365ec8cba6031cfb2248d601d27c8'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/wcXLQVhg/versions/B7iCcP4Q/crawlondemand-1.20-1.0.1.jar'
+
+[update.modrinth]
+mod-id = 'wcXLQVhg'
+version = 'B7iCcP4Q'

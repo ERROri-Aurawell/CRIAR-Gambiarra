@@ -1,0 +1,17 @@
+filename = 'foglooksgoodnow-1.0.1.jar'
+name = 'Fog Looks Good Now ~ Port'
+side = ''
+x-prismlauncher-loaders = [ 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20', '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = '1.0.1'
+
+[download]
+hash = 'f9f237e96146f3a4a11527e901733f6446247f20'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 6505542
+project-id = 1249428

@@ -1,0 +1,16 @@
+filename = 'cobblegenrandomizer-1.20.1-1.2.jar'
+name = 'CobbleGenRandomizer'
+side = 'both'
+x-prismlauncher-loaders = [ 'neoforge', 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20', '1.20-Snapshot', '1.20.1', '1.20.2', '1.20.2-Snapshot', '1.20.3-Snapshot' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = '242f1b8dfbb379c4ab51b6913761edefc5d452fe'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 4817846
+project-id = 402256

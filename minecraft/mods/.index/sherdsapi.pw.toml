@@ -1,0 +1,16 @@
+filename = 'sherdsapi-neoforge-1.20.1-4.0.4.jar'
+name = 'Sherds API'
+side = 'both'
+x-prismlauncher-loaders = [ 'neoforge', 'forge' ]
+x-prismlauncher-mc-versions = [ '1.20', '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = '0bbebe4b4c6ada938332f1df3772a2d06d0cc1e931d82cb6e383c66cb2f6eb31eb0f4db6581eb7b2d1b55480af47d031f2faaf8ba22400cda1ea5dd13cadbe51'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/nOUYhAZV/versions/7bjHviJn/sherdsapi-neoforge-1.20.1-4.0.4.jar'
+
+[update.modrinth]
+mod-id = 'nOUYhAZV'
+version = '7bjHviJn'
